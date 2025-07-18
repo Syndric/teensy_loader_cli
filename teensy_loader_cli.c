@@ -126,7 +126,7 @@ int main(int argc, char **argv)
 	// delaying for 0.5 s before attempting to connect resolves this problem
 	// completely as it gives the teensy enough time to reboot and linux to
 	// connect to it.
-	delay(0.5);
+	delay(5);
 	// open the USB device
 	while (1) {
 		if (teensy_open()) break;
